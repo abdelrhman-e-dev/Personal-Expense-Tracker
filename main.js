@@ -3,15 +3,14 @@
 // FIREBASE CONFIGURATION
 // ============================================
 const firebaseConfig = {
-  apiKey: "AIzaSyBB2HTC42Q3eT_MqEclLYguKYpcQ15aezU",
-  authDomain: "personal-expense-tracker-33a3c.firebaseapp.com",
-  databaseURL: "https://personal-expense-tracker-33a3c-default-rtdb.firebaseio.com",
-  projectId: "personal-expense-tracker-33a3c",
-  storageBucket: "personal-expense-tracker-33a3c.firebasestorage.app",
-  messagingSenderId: "244593921276",
-  appId: "1:244593921276:web:52306496cf53afd4621b79",
-  measurementId: "G-8WLCMNJL5J"
+  apiKey: "AIzaSy...",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project",
+  storageBucket: "your-project.appspot.com",
+  messagingSenderId: "123",
+  appId: "1:123:web:abc"
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -548,3 +547,4 @@ function initApp() {
 
 // Initialize the app when the page loads
 window.addEventListener('DOMContentLoaded', initApp);
+
